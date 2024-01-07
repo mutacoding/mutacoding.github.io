@@ -23,169 +23,131 @@
       rel="stylesheet"
     />
 
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
     <!-- Start : navbar section -->
-    <!-- <nav id="desktop-nav" class="py-3">
-      <div class="container d-flex justify-content-between align-items-center">
-        <a href="#" class="navbar-brand">Brizt <span>Dev</span></a>
-        <div class="nav-list d-flex justify-content-between align-items-center">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Portofolio</a></li>
+    <header class="header">
+      <div class="container">
+        <div class="nav">
+          <a class="logo" href="index.html" style="text-decoration: none;">TzT</a>
+          <ul class="menu-nav">
+            <li><a href="#services" class="nav-item">Services</a></li>
+            <li><a href="#skill" class="nav-item">Skill</a></li>
+            <li><a href="#project" class="nav-item">Project</a></li>
+            <li><a href="#contact" class="nav-item">Contact</a></li>
+            <li><a href="assets/file/CV_Muhammad_Tabrizt_1_compressed.pdf" class="btn" target="_blank">Resume</a></li>
+          </ul>
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
         </div>
       </div>
-    </nav> -->
+    </header>
     <!-- End : navbar section -->
 
     <!-- Start: hero section -->
-    <section class="hero" id="home">
+    <section class="hero">
       <div class="container">
-        <div class="d-xl-flex justify-content-between align-items-center">
-          <div class="bg-profil">
-            <img src="assets/img/profil.png" alt="" />
-          </div>
-          <div class="main-content">
-            <h1><span>Hei,</span> I'm Muhammad Tabrizt</h1>
-            <p>
+        <div class="hero-wrapper">
+          <div class="left-hero">
+            <h3 class="pre-title">My Name is</h3>
+            <h1 class="hero-name"><span>Muhammad</span> Tabrizt</h1>
+            <p class="hero-paragraph">
               I'm a Front-End Developer, Web Developer, and Trainer Web
               Programming
             </p>
-            <div class="social d-flex align-items-center">
-              <a href=""><i class="bx bxl-instagram"></i></a>
-              <a href="https://www.linkedin.com/in/muhammad-tabrizt-0b9187226/"
-                ><i class="bx bxl-linkedin"></i
-              ></a>
-              <a href="https://github.com/Tabrizt"
-                ><i class="bx bxl-github"></i
-              ></a>
-            </div>
-
-            <div class="main-btn">
-              <a href="" class="btn">Hire Me</a>
-              <a href="" class="btn">Download CV</a>
-            </div>
+          </div>
+          <div class="right-hero">
+            <img src="assets/img/image.jpg" alt="" />
           </div>
         </div>
       </div>
     </section>
     <!-- End: hero section -->
 
-    <!-- Start: hero section -->
-    <section class="about" id="about">
+    <!-- Start: Services section -->
+    <section class="services" id="services">
       <div class="container">
-        <div class="about-title">
-          <h4>Hello, I'm Muhammad Tabrizt</h4>
-        </div>
-        <div class="about-article">
-          <p>
-            I am a Web Developer in Medan. I have been working as a web design
-            and web programming trainer since 2023. I am interested in user
-            interface design and implementing it in code form so that it is
-            responsive to several devices such as desktop, tablet and mobile
-            displays. As a Web Developer I have skills in programming languages
-            ​​such as HTML, CSS frameworks such as Bootstrap and Tailwind,
-            Javascript including Jquery. I also learned about computer networks
-            and data engineering.
-          </p>
+        <div class="main-services">
+          <h3 class="pre-title">My Services</h3>
+          <h1 class="section-title service-title">Specialazed In</h1>
+          <div class="service-detail-container">
+            <!-- Start: service-item 1 -->
+            <div class="service-container">
+              <div class="service-icon">
+                <i class="bx bx-layer-plus"></i>
+              </div>
+              <h4 class="service-sub-title">Web Design</h4>
+              <span
+                >Landing page, Profil Company, Portofolio dan lain lain</span
+              >
+            </div>
+            <!-- End: service-item 1 -->
+
+            <!-- Start: service-item 2 -->
+            <div class="service-container">
+              <div class="service-icon">
+                <i class="bx bx-code-block"></i>
+              </div>
+              <h4>Web Developer</h4>
+              <span>
+                Web Pengelola keuangan, Web Online Shop, E-Voting, dan lain lain
+              </span>
+            </div>
+            <!-- End: service-item 2 -->
+
+            <!-- Start: service-item 3 -->
+            <div class="service-container">
+              <div class="service-icon">
+                <i class="bx bx-book"></i>
+              </div>
+              <h4>Trainer</h4>
+              <span>Fundamental mengenai HTML, CSS, Javascript dan PHP</span>
+            </div>
+            <!-- End: service-item 3 -->
+          </div>
         </div>
       </div>
     </section>
-    <!-- End: hero section -->
+    <!-- End: Services section -->
 
     <!-- Start: Skill section -->
-    <section class="skill">
+    <section class="skills" id="skill">
       <div class="container">
-        <div class="skill-title">
-          <p class="text-center">Explore</p>
-          <h4 class="text-center">My Skill</h4>
-        </div>
-        <div class="skill-detail-container">
-          <div class="detail-container">
-            <div class="skill-container">
-              <h2 class="skill-sub-title">Frontend Development</h2>
-              <div class="article-container">
-                <article>
-                  <span><i class="bx bx-check-circle"></i></span>
-                  <div>
-                    <p class="m-0">HTML</p>
-                    <p class="m-0">Intermediate</p>
-                  </div>
-                </article>
-                <article>
-                  <span><i class="bx bx-check-circle"></i></span>
-                  <div>
-                    <p class="m-0">CSS</p>
-                    <p class="m-0">Intermediate</p>
-                  </div>
-                </article>
-                <article>
-                  <span><i class="bx bx-check-circle"></i></span>
-                  <div>
-                    <p class="m-0">Git</p>
-                    <p class="m-0">Basic</p>
-                  </div>
-                </article>
-                <article>
-                  <span><i class="bx bx-check-circle"></i></span>
-                  <div>
-                    <p class="m-0">Javascript</p>
-                    <p class="m-0">Basic</p>
-                  </div>
-                </article>
-                <article>
-                  <span><i class="bx bx-check-circle"></i></span>
-                  <div>
-                    <p class="m-0">Jquery</p>
-                    <p class="m-0">Basic</p>
-                  </div>
-                </article>
-                <article>
-                  <span><i class="bx bx-check-circle"></i></span>
-                  <div>
-                    <p class="m-0">React JS</p>
-                    <p class="m-0">Basic</p>
-                  </div>
-                </article>
+        <div class="main-skill">
+          <h3 class="pre-title">My Skill</h3>
+          <h1 class="section-title">Programming Language & Technology</h1>
+          <div class="skill-container">
+            <div class="skill">
+              <div class="skill-icon">
+                <img src="assets/img/html.png" alt="">
               </div>
-            </div>
-            <div class="skill-container">
-              <h2 class="skill-sub-title">Backend Development</h2>
-              <div class="article-container">
-                <article>
-                  <span><i class="bx bx-check-circle"></i></span>
-                  <div>
-                    <p class="m-0">PHP</p>
-                    <p class="m-0">Intermediate</p>
-                  </div>
-                </article>
-                <article>
-                  <span><i class="bx bx-check-circle"></i></span>
-                  <div>
-                    <p class="m-0">CodeIgniter</p>
-                    <p class="m-0">Intermediate</p>
-                  </div>
-                </article>
-                <article>
-                  <span><i class="bx bx-check-circle"></i></span>
-                  <div>
-                    <p class="m-0">Git</p>
-                    <p class="m-0">Basic</p>
-                  </div>
-                </article>
-                <article>
-                  <span><i class="bx bx-check-circle"></i></span>
-                  <div>
-                    <p class="m-0">Mysql</p>
-                    <p class="m-0">Intermediate</p>
-                  </div>
-                </article>
+              <div class="skill-icon">
+                <img src="assets/img/css.png" alt="">
+              </div>
+              <div class="skill-icon">
+                <img src="assets/img/tailwind.png" alt="">
+              </div>
+              <div class="skill-icon">
+                <img src="assets/img/javascript.png" alt="">
+              </div>
+              <div class="skill-icon">
+                <img src="assets/img/git.png" alt="">
+              </div>
+              <div class="skill-icon">
+                <img src="assets/img/github.png" alt="">
+              </div>
+              <div class="skill-icon">
+                <img src="assets/img/react.png" alt="">
+              </div>
+              <div class="skill-icon">
+                <img src="assets/img/php.png" alt="">
+              </div>
+              <div class="skill-icon">
+                <img src="assets/img/mysql.png" alt="">
+              </div>
+              <div class="skill-icon">
+                <img src="assets/img/codeigniter.png" alt="">
               </div>
             </div>
           </div>
@@ -194,152 +156,153 @@
     </section>
     <!-- End: Skill section -->
 
-    <!-- Start: Services section -->
-    <section class="services">
-      <div class="container">
-        <div class="service-title">
-          <h4>My Services</h4>
-        </div>
-        <div class="service-detail-container">
-          <div class="service-container">
-            <div class="my-service">
-              <p><i class="bx bx-layer-plus"></i></p>
-              <h4 class="service-sub-title">Web Design</h4>
-              <span
-                >Landing page, Profil Company, Portofolio dan lain lain</span
-              >
-            </div>
-          </div>
-          <div class="service-container">
-            <div class="my-service">
-              <p><i class="bx bx-code-block"></i></p>
-              <h4>Web Developer</h4>
-              <span>
-                Web Pengelola keuangan, Web Online Shop, E-Voting, dan lain lain
-              </span>
-            </div>
-          </div>
-          <div class="service-container">
-            <div class="my-service">
-              <p><i class="bx bx-book"></i></p>
-              <h4>Trainer</h4>
-              <span>Fundamental mengenai HTML, CSS, Javascript dan PHP</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End: Services section -->
-
     <!-- Start: Project section -->
-    <section class="project">
+    <section class="projects" id="project">
       <div class="container">
-        <div class="project-title">
-          <h4>My Project</h4>
-        </div>
-        <div class="project-detail-container">
+        <div class="main-project">
+          <h3 class="pre-title">My Works</h3>
+          <h1 class="section-title">Featured Portofolio</h1>
           <div class="project-container">
-            <img class="project-img" src="assets/img/profil.png" alt="" />
-            <div class="article-project">
-              <h5 class="project-sub-title">Web Design</h5>
-              <p class="project-main-title text-truncate">Barbershop</p>
-              <a href="" class="btn-project">
-                <span>Github</span>
-              </a>
+            <!-- Start: Project-item 1 -->
+            <div class="project">
+              <div class="project-cover">
+                <img class="project-img" src="assets/img/profil.png" alt="" />
+              </div>
+              <div class="project-info">
+                <div class="project-title">
+                  <h4>Digital Library</h4>
+                  <a href="" class="project-link">
+                    <i class="bx bx-share"></i>
+                  </a>
+                </div>
+                <div class="project-tags">
+                  <div>Bootstrap</div>
+                  <div>Javascript</div>
+                  <div>CodeIgniter</div>
+                  <div>MySql</div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="project-container">
-            <img class="project-img" src="assets/img/profil.png" alt="" />
-            <div class="article-project">
-              <h5 class="project-sub-title">Web Design</h5>
-              <p class="project-main-title text-truncate">MauMobil</p>
-              <a href="" class="btn-project">
-                <span>Github</span>
-              </a>
+            <!-- End: Project-item 1 -->
+  
+            <!-- Start: Project-item 2 -->
+            <div class="project">
+              <div class="project-cover">
+                <img class="project-img" src="assets/img/profil.png" alt="" />
+              </div>
+              <div class="project-info">
+                <div class="project-title">
+                  <h4>Cash Manager</h4>
+                  <a href="" class="project-link">
+                    <i class="bx bx-share"></i>
+                  </a>
+                </div>
+                <div class="project-tags">
+                  <div>Bootstrap</div>
+                  <div>Javascript</div>
+                  <div>CodeIgniter</div>
+                  <div>MySql</div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="project-container">
-            <img class="project-img" src="assets/img/profil.png" alt="" />
-            <div class="article-project">
-              <h5 class="project-sub-title">Web Application</h5>
-              <p class="project-main-title text-truncate">
-                Pengelola Keuangan Organisasi
-              </p>
-              <a href="" class="btn-project">
-                <span>Github</span>
-              </a>
+            <!-- End: Project-item 2 -->
+  
+            <!-- Start: Project-item 3 -->
+            <div class="project">
+              <div class="project-cover">
+                <img class="project-img" src="assets/img/profil.png" alt="" />
+              </div>
+              <div class="project-info">
+                <div class="project-title">
+                  <h4>List Movie</h4>
+                  <a href="" class="project-link">
+                    <i class="bx bx-share"></i>
+                  </a>
+                </div>
+                <div class="project-tags">
+                  <div>React</div>
+                  <div>Rest API</div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="project-container">
-            <img class="project-img" src="assets/img/profil.png" alt="" />
-            <div class="article-project">
-              <h5 class="project-sub-title">Web Application</h5>
-              <p class="project-main-title text-truncate">
-                Perpustaskaan Digital
-              </p>
-              <a href="" class="btn-project">
-                <span>Github</span>
-              </a>
-            </div>
-          </div>
-          <div class="project-container">
-            <img class="project-img" src="assets/img/profil.png" alt="" />
-            <div class="article-project">
-              <h5 class="project-sub-title">Internet Of Things</h5>
-              <p class="project-main-title text-truncate">
-                Alat Pendeteksi dan Pengendali Populasi Nyamuk
-              </p>
-              <a href="" class="btn-project"> Github </a>
-            </div>
-          </div>
-          <div class="project-container">
-            <img class="project-img" src="assets/img/profil.png" alt="" />
-            <div class="article-project">
-              <h5 class="project-sub-title">Internet Of Things</h5>
-              <p class="project-main-title text-truncate">
-                Pakan ayam sederhana
-              </p>
-              <a href="" class="btn-project">
-                <span>Github</span>
-              </a>
-            </div>
+            <!-- End: Project-item 3 -->
           </div>
         </div>
       </div>
     </section>
     <!-- End: Services section -->
 
-    <!-- Start: Footer section -->
-    <section class="contact" id="contact">
+    <!-- Start: Contact section -->
+    <section class="contacts" id="contact">
       <div class="container">
-        <div class="contact-title">
-          <p>Get In Touch</p>
-          <h4>Contact Me</h4>
-        </div>
-        <div class="contact-container">
-          <div class="contact-sosmed">
-            <i class="bx bx-envelope"></i>
-            <span>&nbsp; muhammadtabrizt05@gmail.com</span>
+        <div class="contact main-contact">
+          <div class="contact-left">
+            <form action="https://formspree.io/f/xkndnpad" method="POST" class="contact-form">
+              <div>
+                <input type="text" name="name" placeholder="Name">
+              </div>
+              <div>
+                <input type="email" name="email" placeholder="Email">
+              </div>
+              <div>
+                <textarea name="mesage" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+              </div>
+              <div>
+                <button class="btn-submit">Send Message</button>
+              </div>
+            </form>
           </div>
-          <div class="contact-sosmed">
-            <i class="bx bxl-linkedin"></i>
-            <span>&nbsp; Muhammad Tabrizt</span>
-          </div>
-          <div class="contact-sosmed">
-            <i class="bx bxl-github"></i>
-            <span>&nbsp; Tabrizt</span>
+          <div class="contact-right">
+            <!-- Start: Contact-item 1 -->
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <i class="bx bx-map"></i>
+              </div>
+              <div class="contact-item-detail">
+                <h4>Address</h4>
+                <p>Johor Indah Permai 1, Medan, Sumatera Utara</p>
+              </div>
+            </div>
+            <!-- End: Contact-item 1 -->
+
+            <!-- Start: Contact-item 2 -->
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <i class="bx bx-phone"></i>
+              </div>
+              <div class="contact-item-detail">
+                <h4>Phone</h4>
+                <p>(+62)823-6737-0064</p>
+              </div>
+            </div>
+            <!-- End: Contact-item 2 -->
+
+            <!-- Start: Contact-item 3 -->
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <i class="bx bx-envelope"></i>
+              </div>
+              <div class="contact-item-detail">
+                <h4>Email</h4>
+                <p>muhammadtabrizt05@gmail.com</p>
+              </div>
+            </div>
+            <!-- End: Contact-item 3 -->
           </div>
         </div>
       </div>
     </section>
-    <!-- End: Footer section -->
+    <!-- End: Contact section -->
 
     <!-- Start: Footer section -->
     <section class="footer" id="footer">
       <div class="container">
-        <div class="copyright">
-          <p>2023 Muhammad Tabrizt, All Rights Reserved</p>
+        <div class="footer-icons">
+          <a href=""><i class='bx bxl-linkedin-square'></i></a>
+          <a href=""><i class='bx bxl-github'></i></a>
+          <a href=""><i class='bx bxl-instagram'></i></a>
         </div>
+        <p>&#169; 2024 - Made by <span>TzT Coder</span></p>
       </div>
     </section>
     <!-- End: Footer section -->
